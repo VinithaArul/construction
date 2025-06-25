@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vicky COMMERCIAL BUILDINGS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header section -->
+    <div class="container-fluid">
+        <div class="row heading">
+            <div class="col-sm-6 logo">
+              <center> <img src="./images/799px-Veeva_Logo.png" alt="logo"></center> 
+            </div>
+            <div class="col-sm-6 call">
+                <div class="form-group">
+                    <button id="call">Call Me</button>
+                    <input type="text" placeholder="Enter Your Number" maxlength="10" required id="mnum">
+                    <select class="form-control" id="country">
+                      <option>+91 INDIA</option>
+                      <option>+1 USA</option>
+                      <option>+44 UK</option>
+                      <option>+86 CHINA</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-sm-6 enquire">
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/+918903519872" src="WhatsAppButtonGreenLarge.svg">
+                            <img src="./images/whatsapp.png" id="whats">   </a > 
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- body section    navbar -->
+      <!-- navbar collapse -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                 <li ><a href="./index.html">HOME</a> </li>
+                <li><a href="./about.html">ABOUT US</a></li>
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RESIDENT 
+                                    <span class="caret"></span></a> 
+                                <ul class="dropdown-menu resi">
+                                    <li ><a href="./homes.html">HOME</a></li>
+                                    <li><a href="./resident.html">APARTMENTS</a></li>
+                                </ul>
+                             </li>
+             <li><a href="./commercial.html">COMMERCIAL</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li class="active"><a href="#">CAREERS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- image -->
+    <div class="container-fluid abpage">
+        <img src="./images/career.jpg" alt="about image">
+
+    </div>
+    <!--  -->
+    <div class="container-fluid career">
+
+<center><h1>Current Openings</h1></center>
+<h4>Write to Us on: <a href="#"><i>career@vickyconstruction.com</i></a></h4>
+        <h3>Assistant Manager Sales</h3>
+        <center><table class="table">
+            <tr class="info">
+                <td>Designation/Level</td>
+                
+                <td>Assistant Manager Sales</td>
+              </tr>
+              <tr class="active">
+                <td>Education / Experience</td>
+                
+                <td>Any Graduate/6 – 10 years</td>
+              </tr>
+              <tr class="info">
+                <td>Type of Industry</td>
+                
+                <td>Real Estate / Construction</td>
+              </tr>
+              <tr class="active">
+                <td>Job Description / Skills Required</td>
+                
+                <td><ul><li>Achievement of sales targets</li>
+                  <li>  Collection of 20% of apartment cost</li>
+                  <li>  Identifying and developing channel partners</li>
+                    <li> Generating sales through customer referrals</li>
+                        <li>  Conducting lead generation activities along with the marketing support</li>
+                            <li>  Co-ordinating with CRM for customer documentations Updation of ERP.</li>
+                        </ul></td>
+              </tr>
+        </table>
+        <button class="btn btn-success" onclick="document.getElementById('popup1').style.display='block'">APPLY HERE</button>
+    </center>
+<!--  -->
+<div id="popup1" class="modal">
+    <center>
+    <form action="mailto:pradakshna1701@gmail.com" method="post" enctype="text/plain"  class="modal-content animate">
+        
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('popup1').style.display='none'" style="cursor: pointer; color: black; font-size: 40px; margin:5px;" class="close">&times;</span>
+        </div>
+      
+       <div class="container-fluid">
+        <table>
+            <tr>
+                <td><label for="username" >Name:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="email" >e-mail Id:</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="edu" >Education:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="job" >Job applying For:</label></td>
+            </tr>
+            <tr>
+                <td><select name="job" id="asst-job">
+                    <option value="Assistant Manager Sales">Assistant Manager Sales</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file" >Upload Your Resume:</label></td>
+            </tr>
+            <tr>
+                <td><input type="file" required></td>
+            </tr>
+        </table>
+      
+        <button type="submit" value="send" class="btn btn-warning">submit</button>
+       
+       </div>
+    </form>
+</div>
+</center>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('popup1');
+
+    // When the user clicks anywhere outside of the modal, close it
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+<!--  -->
+
+
+    <h3>Executive IT Support</h3>
+        <center><table class="table">
+            <tr class="info">
+                <td>Designation/Level</td>
+                
+                <td>Executive IT Support</td>
+              </tr>
+              <tr class="active">
+                <td>Education / Experience</td>
+                
+                <td>Any Graduate/6 – 10 years</td>
+              </tr>
+              <tr class="info">
+                <td>Type of Industry</td>
+                
+                <td>Real Estate / Construction</td>
+              </tr>
+              <tr class="active">
+                <td>Job Description / Skills Required</td>
+                
+                <td><ul><li>Maintenance of Desktop/Laptops, Internet Provision @Head office and Sites</li>
+                  <li>  Backup of Users data Monthly/ Quarterly</li>
+                  <li>Maintenance of Mailing system ,Firewall and Antivirus</li>
+                    <li> Daily Data backup of Quadra Server and Tally Server weekly</li>
+                        <li>Resolving IT related issues based on the calls and complaint from users</li>
+                            <li> Accounting IT monthly payable bills and following the payment till despatch of Cheques</li>
+                        </ul></td>
+                
+              </tr>
+        </table>
+        <button class="btn btn-success" onclick="document.getElementById('popup').style.display='block'">APPLY HERE</button>
+    </center>
+
+    </div>
+<!--  -->
+<div id="popup" class="modal">
+    <center>
+    <form action="#" class="modal-content animate">
+        
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('popup').style.display='none'" style="cursor: pointer; color: black; font-size: 40px; margin:5px;" class="close">&times;</span>
+        </div>
+      
+       <div class="container-fluid">
+        <table>
+            <tr>
+                <td><label for="username" >Name:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="email" >e-mail Id:</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="edu" >Education:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="job" >Job applying For:</label></td>
+            </tr>
+            <tr>
+                <td><select name="job" id="asst-job">
+                    <option value="Executive IT Support">Executive IT Support</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file" >Upload Your Resume:</label></td>
+            </tr>
+            <tr>
+                <td><input type="file" required></td>
+            </tr>
+        </table>
+      
+        <button type="submit" class="btn btn-warning">submit</button>
+       
+       </div>
+    </form>
+</div>
+</center>
+</div>
+<script>
+    // Get the modal
+    var modal = document.getElementById('popup');
+
+    // When the user clicks anywhere outside of the modal, close it
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+<!--  -->
+<div class="container-fluid contact">
+    <div class=" row">
+        <div class="col-sm-4">
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="homes.html">Resident</a></li>
+            <li><a href="./career.html">Carrer</a></li>
+            <li><a href="index.html">Testimonals</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-4">
+           <ul>
+            <li><img src="./images/icons8-youtube-48.png" class="icon" alt="youtube"><a href="#"> Youtube</a></li>
+            <li><img src="./images/icons8-instagram-48.png" class="icon" alt="Instagram"> <a href="#">Instagram</a></li>
+            <li><img src="./images/icons8-linkedin-48.png"  class="icon" alt="linkedin"> <a href="#">linkedin</a></li>
+            <li><img src="./images/icons8-facebook-48.png" class="icon" alt="Facebook"> <a href="#">Facebook</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul>
+                <li><span class="glyphicon glyphicon-map-marker"></span> Vicky Construction Pvt Ltd, 7th Floor, LB Road,<br>
+                    Gandhipuram, Coimbatore. 600 002<br>
+                <li><span class="glyphicon glyphicon-earphone"></span>     Tel: 042 – 4200 8811/ 044 – 2496 8811<br>
+                </li>
+                <li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:pradakshna1701@gmail.com"> Mail: marketing@vickyconstruction.com</a><br></address></li>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+<!-- footer -->
+<div class="container-fluid foot">
+   <center> <p>All Rights Reserved 2024 © Vicky Construction Pvt ltd. | Powered by VVVVVV</p></center>
+
+</div>
+
+
+    </body>
+    </html>

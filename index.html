@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vicky Construction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header section -->
+      <script>
+        const numb = document.querySelector(".numb");
+        let counter = 0;
+        setInterval(
+          () => {
+            if(counter == 100) {
+              clearInterval();
+            } else {
+              counter+=1;
+              numb.textContent = counter + "%";
+            }
+          }, 80);
+       </script>
+    <div class="container-fluid">
+        <div class="row heading">
+            <div class="col-sm-6 logo">
+              <center> <img src="./images/799px-Veeva_Logo.png" alt="logo"></center> 
+            </div>
+            <div class="col-sm-6 call">
+                <div class="form-group">
+                    <button id="call">Call Me</button>
+                    <input type="text" placeholder="Enter Your Number" maxlength="10" required id="mnum">
+                    <select class="form-control" id="country">
+                      <option>+91 INDIA</option>
+                      <option>+1 USA</option>
+                      <option>+44 UK</option>
+                      <option>+86 CHINA</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-sm-6 enquire">
+                      <a aria-label="Chat on WhatsApp" href="https://wa.me/+918903519872" src="WhatsAppButtonGreenLarge.svg">
+                        <img src="./images/whatsapp.png" id="whats">   </a > 
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- body section    navbar -->
+      <!-- navbar collapse -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                 <li class="active"><a href="#">HOME</a> </li>
+                <li><a href="./about.html">ABOUT US</a></li>
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RESIDENT 
+                                    <span class="caret"></span></a> 
+                                <ul class="dropdown-menu resi">
+                                  <li ><a href="./homes.html">HOME</a></li>
+                                  <li><a href="./resident.html">APARTMENTS</a></li>
+                                </ul>
+                             </li>
+             <li><a href="./commercial.html">COMMERCIAL</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./career.html">CAREERS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+      <!-- slide or image coursol -->
+
+    <div class="carousel slide" data-ride="carousel" id="mycarousel">
+        <!-- indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+    <!-- wrapper for slide -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./images/commercial.jpg" alt="image1">
+                    <div class="content">
+                      <h2>BEST CONSTRUCTION COMPANY IN COIMBATORE</h2>
+                    </div>
+                </div>
+                <div class="item">  
+                   <img src="./images/about img 2.jpg" alt="building">
+                   <div class="content">
+                    <h2>BUY YOUR APARTMENTS HERE</h2>
+                  </div>
+                </div>
+                <div class="item">
+                    <img src="./images/im6.jpg" alt="house">
+                    <div class="content">
+                      <h2>BUILD YOUR DREAM HOUSE HERE</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- left and right control -->
+            <a href="#mycarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a href="#mycarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>
+    <!-- about us -->
+    <div class="container-fluid about">
+<center><h1>ABOUT US</h1></center>
+<div class="row">
+  <div class="col-md-8">
+    <p>Vicky Construction Pvt Ltd. was founded in 1995 under the stewardship of Mr.B S VIGNESH , a qualified Civil Engineer. Since its inception, Akshaya has set higher standards for itself, inspired by the Sanskrit origin of its name, which means ‘endless pursuit’. It has grown into one of the most respected real estate companies in India, reputed for its transparent business practices and innovation. A truly successful journey over the last 27 years has seen the company grow by leaps and bounds, as it went about creating over 170 landmarks and 6000+ customers across Tamil Nadu</p>
+    <p>Vicky Construction Pvt Ltd. was founded in 1995 under the stewardship of Mr.B S VIGNESH   a qualified Civil Engineer. Since its inception, Akshaya has set higher standards for itself, inspired by the Sanskrit origin of its name, which means ‘endless pursuit’. It has grown into one of the most respected real estate companies in India, reputed for its transparent business practices and innovation. A truly successful journey over the last 27 years has seen the company grow by leaps and bounds, as it went about creating over 170 landmarks and 6000+ customers across Tamil Nadu
+
+      <p>      In an endeavour to excel and set higher standards of performance and corporate governance, the management team has on board professionals from various other industries to head the Marketing, Technical, HR, Finance, Sales & Customer Relations, Branding, Legal systems, Management Representative for ISO Audits & Safety and Human Resource divisions.
+      </p>
+<p>      Vicky's core values of transparency, clear titles and ethical business practices, clearly set the company apart from the rest of the industry players. A strict adherence to statutory norms has earned Akshaya the respect of the real estate industry and the admiration of numerous delighted customers.</p></div>
+</p>
+    
+  
+  <div class="col-md-3">
+    <img src="./images/apart5.jpg" alt="" width="400px" height="600px">
+  </div>
+</div>
+</div>
+      <!-- testimonals of company **** youtube video -->
+<div class="container-fluid">
+  <h1>Our Testimonals</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/Q01 Campus Construction_ Phase 1, Oct. 2022.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/Q01 Campus Construction_ Phase 1, Oct. 2022.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/A Better Built Home In 1 Minute _ Clay Construction.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="row second">
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/A Better Built Home In 1 Minute _ Clay Construction.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/Q01 Campus Construction_ Phase 1, Oct. 2022.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="col-sm-4">
+      <video  height="240" muted controls>
+        <source src="./videos/Q01 Campus Construction_ Phase 1, Oct. 2022.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+<!--  -->
+<div class="container-fluid contact">
+  <div class=" row">
+      <div class="col-sm-4">
+          <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="homes.html">Resident</a></li>
+          <li><a href="./career.html">Carrer</a></li>
+          <li><a href="index.html">Testimonals</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      </div>
+      <div class="col-sm-4">
+         <ul>
+              <li><img src="./images/icons8-youtube-48.png" class="icon" alt="youtube"><a href="#"> Youtube</a></li>
+              <li><img src="./images/icons8-instagram-48.png" class="icon" alt="Instagram"> <a href="#">Instagram</a></li>
+              <li><img src="./images/icons8-linkedin-48.png"  class="icon" alt="linkedin"> <a href="#">linkedin</a></li>
+              <li><img src="./images/icons8-facebook-48.png" class="icon" alt="Facebook"> <a href="#">Facebook</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-4">
+          <ul>
+              <li><span class="glyphicon glyphicon-map-marker"></span> Vicky Construction Pvt Ltd, 7th Floor, LB Road,<br>
+                  Gandhipuram, Coimbatore. 600 002<br>
+              <li><span class="glyphicon glyphicon-earphone"></span>     Tel: 042 – 4200 8811/ 044 – 2496 8811<br>
+              </li>
+              <li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:pradakshna1701@gmail.com"> Mail: marketing@vickyconstruction.com</a><br></address></li>
+          </li>
+          </ul>
+      </div>
+  </div>
+
+
+</div>
+<!-- footer -->
+<div class="container-fluid foot">
+ <center> <p>All Rights Reserved 2024 © Vicky Construction Pvt ltd. | Powered by VVVVVV</p></center>
+
+</div>
+
+
+  </body>
+  </html>

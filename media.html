@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css">
+<style>
+  video{
+    background-image: url(./images/Slide1.png);
+    background-blend-mode:darken;
+    
+  }
+</style>
+</head>
+<body>
+    <!--  -->
+    <!-- header section -->
+    <div class="container-fluid">
+      <div class="row heading">
+          <div class="col-sm-6 logo">
+            <center> <img src="./images/799px-Veeva_Logo.png" alt="logo"></center> 
+          </div>
+          <div class="col-sm-6 call">
+              <div class="form-group">
+                  <button id="call">Call Me</button>
+                  <input type="text" placeholder="Enter Your Number" maxlength="10" required id="mnum">
+                  <select class="form-control" id="country">
+                    <option>+91 INDIA</option>
+                    <option>+1 USA</option>
+                    <option>+44 UK</option>
+                    <option>+86 CHINA</option>
+                  </select>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-sm-6 enquire">
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/+918903519872" src="WhatsAppButtonGreenLarge.svg">
+                      <img src="./images/whatsapp.png" id="whats">   </a > 
+                  </div>  
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- body section    navbar -->
+    <!-- navbar collapse -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="navbar-header navbar-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+           <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="nav navbar-nav">
+               <li ><a href="./index.html">HOME</a> </li>
+              <li><a href="./about.html">ABOUT US</a></li>
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">RESIDENT 
+                                  <span class="caret"></span></a> 
+                              <ul class="dropdown-menu resi">
+                                <li ><a href="./homes.html">HOME</a></li>
+                                <li><a href="./resident.html">APARTMENTS</a></li>
+                              </ul>
+                           </li>
+           <li><a href="./commercial.html">COMMERCIAL</a></li>
+          <li class="active"><a  href="#">MEDIA CENTER</a></li>
+          <li><a href="./blog.html">BLOG</a></li>
+          <li><a href="./career.html">CAREERS</a></li>
+          <li><a href="./contact.html">CONTACT US</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+     <!-- homes image -->
+     <div class="container-fluid">
+      <img src="./images/news.jpg" alt="house image" width="100%">
+  </div>
+    <!-- gallery news -->
+  <section class="gallery min-vh-100">
+    <div class="container-lg">
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col gal">
+          <img src="./images/news 1.jpg" alt="news img1" class="gallery-item">
+        </div>
+        <div class="col">
+          <img src="./images/news 2.jpg" alt="news img1" class="gallery-item">
+        </div>
+        <div class="col">
+          <img src="./images/news 6.png" alt="news img1" class="gallery-item">
+        </div>
+        <div class="col">
+          <img src="./images/news 1.jpg" alt="news img1" class="gallery-item">
+        </div>
+        <div class="col">
+          <img src="./images/news4.jpg" alt="news img1" class="gallery-item">
+        </div>
+        <div class="col">
+          <img src="./images/news 2.jpg" alt="news img1" class="gallery-item">
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./images/news 1.jpg" class="modal-img" alt="image news1">
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- video try -->
+  <div class="container-fluid">
+    <video width="100%" height="300px" autoplay >
+      <source src="./videos/pexels_videos_2796080 (2160p).mp4" type="video/mp4" >
+    </video>
+
+  </div>
+
+  <!--  -->
+<div class="container-fluid contact">
+  <div class=" row">
+      <div class="col-sm-4">
+         <center> <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="homes.html">Resident</a></li>
+          <li><a href="./career.html">Carrer</a></li>
+          <li><a href="index.html">Testimonals</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+      </ul></center>
+      </div>
+      <div class="col-sm-4">
+          <center><ul>
+            <li><img src="./images/icons8-youtube-48.png" class="icon" alt="youtube"><a href="#"> Youtube</a></li>
+            <li><img src="./images/icons8-instagram-48.png" class="icon" alt="Instagram"> <a href="#">Instagram</a></li>
+            <li><img src="./images/icons8-linkedin-48.png"  class="icon" alt="linkedin"> <a href="#">linkedin</a></li>
+            <li><img src="./images/icons8-facebook-48.png" class="icon" alt="Facebook"> <a href="#">Facebook</a></li>
+          </ul></center>
+      </div>
+      <div class="col-sm-4">
+          <ul>
+              <li><span class="glyphicon glyphicon-map-marker"></span> Vicky Construction Pvt Ltd, 7th Floor, LB Road,<br>
+                  Gandhipuram, Coimbatore. 600 002<br>
+              <li><span class="glyphicon glyphicon-earphone"></span>     Tel: 042 – 4200 8811/ 044 – 2496 8811<br>
+              </li>
+              <li><span class="glyphicon glyphicon-envelope"></span>                    Mail: marketing@vickyconstruction.com<br></address></li>
+          </li>
+          </ul>
+      </div>
+  </div>
+
+
+</div>
+<!-- footer -->
+<div class="container-fluid foot">
+ <center> <p>All Rights Reserved 2024 © Vicky Construction Pvt ltd. | Powered by VVVVVV</p></center>
+
+</div>
+
+
+  </body>
+  </html>

@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 80px;
+    background-color:white;
+}
+
+.logo img{
+    width: 45%;
+    height: 70px;
+    margin: 5px;
+
+}
+
+#call{
+    float: right;
+    font-size: 15px;
+    background-color:coral;
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+}
+.enquire{
+    height: 40px;
+    float: right;
+}
+#country{
+    width: 70px;
+    height: 28px;
+    float: right;
+    margin-top: 2px;
+}
+#mnum{
+    float: right;
+    font-size: 16px;
+    margin-top: 2px;
+    
+}
+#whats{
+    width: 200px;
+    height: 35px;
+    float: right;
+}
+#enq{
+    background-color: coral;
+    font-size: 20px;
+    float: right;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 3px;
+}
+#enq:hover{
+    background-color: rgb(248, 70, 6);
+}
+#call #mnum #country{
+    margin: 3px;
+}
+#mycarousel{
+    margin-top: -20px;
+}
+.resi li{
+    background-color: rgba(7, 7, 7, 0.582);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.content {
+    position: absolute; /* Position the background text */
+    bottom: 25px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+.second{
+    margin-top: 25px;
+}
+.about{
+    /* background-image: url(./images/bg\ im.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about p{
+    line-height: 2.5;
+    word-spacing: .5;
+}
+.col-sm-6{
+    border: black;
+}
+.container{
+    background-color: beige;
+}
+th{
+    background-color:coral ;
+    width: 400px;
+    border-color: coral;
+    font-size: 20px;
+    text-align: center;
+}
+table, th{
+    border-color: coral;
+}
+marquee{
+    line-height: 3;
+    animation: 2s;
+}
+.abpage{
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+}
+.abpage img{
+    width: 102.6%;
+    height: 450px;
+    margin-left: -20px;
+}
+.list{
+ margin-right: 20PX;
+ margin-bottom: 10px;
+}
+.over{
+    line-height: 2;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+
+.btn{
+    margin: 10px;
+}
+.row{
+    margin: 10px;
+}
+.button{
+    position: fixed;
+}
+
+table tr, td{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.col-sm-9, .col-sm-3 {
+    border: 1px solid;
+    border-color: rgb(241, 223, 223); 
+    padding: 5px;
+  
+}
+.Rhead{
+    margin-left: 80px;
+}
+.hhead{
+    margin-left: 210px;
+}
+.gallery{
+    background-color: rgb(250, 149, 76);
+}
+
+
+.new{
+    background-color: black;
+}
+.nav-link {
+    color: white;
+}
+.navbar-light{
+color: white;
+}
+.career{
+    background-color: rgb(253, 214, 162);
+}
+.table{
+    width: 70%;
+    
+}
+#popup{
+    width: 50%;
+    height: 600px;
+    margin: 5%;
+    margin-left: 20%;
+    
+}
+#popup1{
+    width: 50%;
+    height: 600px;
+    margin: 5%;
+    margin-left: 20%;
+   
+}
+.close{
+    width: 30px;
+    height: 30px;
+    color: black;
+
+}
+.sub{
+    margin: 10px;
+}
+input{
+    font-size: 18px;
+  
+}
+.btn-warning{
+    font-size: 20px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.enq{
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.404);
+}
+ul, li{
+    list-style:none;
+    font-size: 15px;
+    line-height: 2;
+    align-items: center;
+}
+a{
+    color: white;
+    
+}
+.contact{
+    background-color: black;
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+.foot{
+    background-color: gray;
+    height: 40px;
+    padding: 10px;
+}
+.col-sm-4{
+   
+    padding: 30px;
+}
+.animate{
+    width: 500px;
+}
+.img1{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    
+}
+.vtypo{
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+
+}
+.btn-warning{
+    padding: 5px;
+}
+/* style code for loader */
+.circular{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.circular .inner, .circular .outer, .circular .circle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    z-index:6;
+    box-shadow: inset 0px 1px 0px  rgb(0 0 0 0.2);
+
+}
+.circular .inner{
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width:80px;
+    margin: -40px 0 0 -40px;
+    background-color:white;
+    border-radius: 100%;
+    box-shadow: 0px 1px 0px  rgb(0 0 0 0.2);
+}
+.circular .circle {
+    z-index:1;
+    box-shadow: none;
+}
+.circular .numb{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size: medium;
+    font-weight: 100;
+    color: #4158D0;
+}
+.circular .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    clip: rect(0, 100px, 100px, 50px);
+}
+.circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(194, 185, 185);
+    clip: rect(0px, 50px, 100px, 0px);
+}
+.circle .bar .progress, .dot span{
+    background-color: #4158D0;
+}
+.circle .left .progress{
+    z-index: 1;
+    animation: left 4s linear both;
+}
+@keyframes left{
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.circle .right {
+    z-index: 3;
+    transform: rotate(180deg);
+}
+.circle .right .progress{
+    animation: right 4s linear both;
+    animation-delay: 4s;
+}
+@keyframes right{
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.circle .dot{
+    z-index: 2;
+    position:absolute ;
+    left:50%;
+    top:50%;
+    width: 50%;
+    height: 10px;
+    margin-top: -5px;
+    animation: dot 8s linear both;
+    transform-origin: 0% 50%; 
+}
+.circle .dot span{
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+
+}
+@keyframes dot{
+    0%{
+        transform: rotate(-90deg);
+    }
+    50%{
+        transform: rotate(90deg);
+        z-index: 4;
+    }
+    100%{
+        transform: rotate(270deg);
+        z-index: 6;
+    }
+}
